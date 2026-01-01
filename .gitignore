@@ -1,0 +1,12 @@
+# Veritabanı dosyalarını görmezden gel
+*.db
+*.sqlite
+
+# İşletim sistemi dosyaları
+.DS_Store
+Thumbs.db
+
+# IDE ve Editör klasörleri
+.idea/
+.vscode/
+*.swp

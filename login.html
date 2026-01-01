@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Giriş Yap</title>
+    <style>
+        body { font-family: sans-serif; padding: 50px; }
+        form { background: #f0f0f0; padding: 20px; border-radius: 8px; width: 300px; }
+        input { margin-bottom: 10px; width: 100%; padding: 8px; box-sizing: border-box; }
+        input[type="submit"] { background: #333; color: white; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h2>Giriş Sayfası</h2>
+    <form action="/auth" method="POST">
+        <label>Kullanıcı Adı:</label>
+        <input type="text" name="username" placeholder="Kullanıcı adınız...">
+        
+        <label>Şifre:</label>
+        <input type="password" name="password" placeholder="Şifreniz...">
+        
+        <input type="submit" value="Giriş Yap">
+    </form>
+</body>
+</html>
