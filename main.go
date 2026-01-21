@@ -29,7 +29,7 @@ func main() {
 
 	http.HandleFunc("/", loginPage)
 	http.HandleFunc("/auth", authHandler)
-	http.HandleFunc("/users", listUsersPage) // Veritabanındaki herkesi listeleyen sayga. Bkz: 60. satır
+	http.HandleFunc("/users", listUsersPage) // Veritabanındaki herkesi listeleyen sayfa. Bkz: 60. satır
 
 	fmt.Println("Sunucu çalışıyor: https://localhost:8080")
 	log.Fatal(http.ListenAndServe(":8080", nil))
